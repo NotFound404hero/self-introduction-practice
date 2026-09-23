@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介 - 樋口洋志</title>
+</head>
+<body>
+ <h1> 「自己紹介」</h1>
+    <h2>「プロフィール」</h2>
+        <p>名前 樋口洋志（ヒグチ ヒロシ）</p>
+        <p>年齢 45歳</p>
+        <p>出身地 福岡県</p>
+        <p>趣味 写真撮影、アクアリウム</p>
+    
+    <h2>好きなもの</h2>
+        <ul>
+        <li>・ラーメン（豚骨にあらずばラーメンにあらず）</li>
+        <li>・カフェイン（コーヒー、エナドリ、コーラ）</li>
+        <li>・食品添加物（加工肉、インスタント食品）</li>
+        </ul>
+    <h2>今年の目標</h2>
+        <ol>
+        <li>転職準備の完了</li> 
+        <li>腰痛の痛み解消</li>
+        <li>虫歯の治療完了</li> 
+        </ol>
+    
+    <h2>リンク</h2>
+        <a href="https://github.com/NotFound404hero" target="_blank">私のGitHub</a>
+    
+    <h2>好きな風景</h2>    
+    <img src="/Users/higuchihiroshi/Desktop/hello-world/images/landscape.jpg" alt="好きな風景" width="400">
+    
+    <h2>お問い合わせ</h2>
+        <form action="/submit" method="post">
+        <div>
+        <label for="name">お名前:</label>
+        <input type="text" id="contact-name" name="name" required>
+        </div>
+        <label for="contact-category">お問い合わせ種類:</label>
+        <select id="contact-category" name="category">
+            <option value="">--選択して下さい</option>
+            <option value="general">一般的なお問い合わせ</option>
+            <option value="feedback">ご意見・ご要望</option>
+        </select>
+        </div>
+        <div>
+        <label for="contact-message">お問い合わせ内容：</label>
+        <p><textarea id="contact-message" name="message" rows="5" required></textarea></p>
+        </div>
+        <div>
+        <button type="submit">送信する</button>
+        </div>
+    </form>
+</body>
+
+</html>
